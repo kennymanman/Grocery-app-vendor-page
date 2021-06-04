@@ -16,7 +16,7 @@ return (
         
 <div>
 <Layout>
-<ReactBootStrap.Navbar style={{marginTop:43,
+<ReactBootStrap.Navbar fixed style={{marginTop:20,
                                backgroundColor:"#ffffff"}} >
 
 <ReactBootStrap.Navbar.Brand style={{marginLeft:0}}>
@@ -64,7 +64,7 @@ Garden Vendor<h8 style={{color:"orange"}}>.</h8>
 
 
 
-{/*< ReactBootStrap.Button variant="success">Sign In</ReactBootStrap.Button>{' '} */}
+< ReactBootStrap.Button variant="success">Sign In</ReactBootStrap.Button>
 
 
 </ReactBootStrap.Navbar.Collapse>
@@ -72,6 +72,9 @@ Garden Vendor<h8 style={{color:"orange"}}>.</h8>
 
 
 </Layout>
+
+
+
 
 
         </div>

@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+.homebackground{
+
+background-size: "cover";
+width: 1534px;
+position: absolute ;
+height:94vh;
+}
+.topgardentext{
+  color: aliceblue;
+  margin-top: 20px;
+}
+.topdot{
+  color: yellow;
+}
+.sellyourtext{
+  margin-top: 26px;
+  font-size: 112px;
+  font-family: 'Inter', sans-serif;
+  color:orangered
+}
+.selldot{
+  color:yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.aimstatement{
+  color:yellow;
+  margin-top: 19px;
+  font-family: 'Inter', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.aimbelow{
   color: white;
+  margin-top: 307px;
+  margin-left: 210px;
+  font-family: 'Inter', sans-serif;
+  
+}
+.signupbutton{
+  margin-top: 312px;
+  margin-left: 15px;
+  
+}
+.signuprow{
+  margin-left: 120px;
 }
 
-.App-link {
-  color: #61dafb;
+.nextbackground{
+  width: 1534px;
+  position: absolute ;
+  height: 80vh;
 }
+.benefittext{
+  position: relative;
+  font-family: 'Inter', sans-serif;
+  font-size: 55px;
+  margin-top: 80px;
+  
+}
+.benefitdot{
+  color: yellow;
+}
+.icon{
+  position: relative;
+  font-size: 20px;
+  margin-top: 90px;
+}
+.footer{
+  width: 1534px;
+  height:300px;
+  position: absolute;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.footertext{
+  position: relative;
+  color: aliceblue;
+}
+.footericon{
+  font-size: 20px;
+  color: aliceblue;
+  
+}
+.footerrow{
+  margin-top: 55px;
+}
+.footertexter{
+  position: relative;
+  color: aliceblue;
+  margin-top: 110px;
+}
+.footericons{
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 15px;
+  
+}
+.whatheader{
+  color: orangered;
+  font-size: 100px;
+  font-family: 'Inter', sans-serif;
+  margin-top: 20px;
+}
+.whatdot{
+  color: orange;
+}
+.whatsub{
+  font-family: 'Inter', sans-serif;
+  font-size: 17px; 
+  margin-top: 16px; 
 }
