@@ -201,11 +201,11 @@ and (min-width:320px)
 and (max-width:480px) {
 
   .homebackground{
-    width:408px;
+    width:409px;
     height: 176vh;
   }
   .footer{
-    width:408px;
+    width:409px;
     margin-top: 48px;
     height:310px;
   }
@@ -334,6 +334,13 @@ and (max-width:480px) {
   .signupbutton{
    
     margin-top: 550px;
+  }
+  .whatbackground{
+    width:1024px;
+    height:1450px;
+  }
+  .contactbackground{
+    width:1024px;
   }
   }
 
