@@ -1,141 +1,107 @@
 import React from 'react'
-import bar from "./Imaged/bar.jpg"
+import hpi from "./Imaged/hpi.jpg"
 import Layout from "./Layout" 
 import * as ReactBootStrap from "react-bootstrap"
+import put from "./Imaged/put.png"
 import lut from "./Imaged/lut.png"
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
-
+import {GrPhone} from "react-icons/gr"
+import {LinkContainer} from 'react-router-bootstrap'
 
 export default function Contact() {
-return (
+    return (
+
+<div>
+
+< img  alt="loading"
+  className="contactbackground"
+  fluid src={hpi}  />
 
 
-
-<div 
-style={{ 
-        backgroundImage: "url("+bar+ ")",
-        backgroundSize: "cover",
-        height: "95vh",}}
-        >
-            
 <Layout>
+<ReactBootStrap.Row className="contactrow">
 
-<h1 style={{color:"white",
-           paddingTop:50}}>
-           Contact Us
-           </h1>
+<ReactBootStrap.Col>
+<h4 className="contactheader" >Contact<br/> Us</h4>
 
-
-
-
-<ReactBootStrap.Row>
-<ReactBootStrap.Col  >
-<h5 style={{color:"white",
-            marginLeft:28,
-            marginTop:90}}>
-            <u>Stay in Touch</u>
-            </h5>
+<h6 className="contactsubtitle">Email or visit us<br/>at our location,<br/>
+we would love to hear from you.</h6>
 
 
-<h1 style={{color:"white",
-            marginTop:50}}>
-    Email or visit us<br/>at our location,<br/>we would love to hear<br/>from you.
-</h1>
 
 </ReactBootStrap.Col>
 
 
+<ReactBootStrap.Col>
+<h4>Lagos, Nigeria</h4>
+<p>92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
 
-<ReactBootStrap.Col style={{marginLeft:100}}  >
-
-<h4 style={{color:"white",
-            marginTop:120}}>
-            Lagos, Nigeria
-            </h4>
-
-<h7 style={{color:"white"}}>
-     92, Lanre Awolokun Gbagada Phase 2 <br/>Lagos, Nigeria.
-</h7>
-            <br/>
-            <br/>
-<h7 style={{color:"white"}}>Phone Number: +234 0000000098
-</h7>
-            <br/>
-            <br/>
-<a style={{color:"white"}} href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp.com</a>
+<GrPhone className="finalfix"  />  <h7> Phone Number: +234 0000000098 </h7><br/>
+<GrMail  className="finalfix"  /> <a  className="finalfix"  href='mailto:jack@semantic-ui.com'> Email Address: www.gardenapp@gmail.com</a>
 
 </ReactBootStrap.Col>
 
 </ReactBootStrap.Row>
-     
 </Layout>
-<ReactBootStrap.Image src={lut} style={{marginTop:150,
-                                       borderRadius:0,
-                                       position:"absolute" ,
-                                       width:1530,
-                                       height:229}}
-                                       fluid />
-   
 
 
+< img  alt="loading"
+  className="footer"
+  fluid src={put}  />
 
 
-<Layout>
-<ReactBootStrap.Row>
-   
-<ReactBootStrap.Col style={{paddingTop:180,
-                           paddingLeft:40}}>
+  <Layout>
 
-<h2 style={{position:"relative",  
-           color:"black"}}>
-               Garden.
-</h2>
+<ReactBootStrap.Row className="footerrow">
 
+<ReactBootStrap.Col>
+<h3 className="footertext">Garden.</h3>
+<GrInstagram className="footericon" />
+<GrTwitter   className="footericons"  />
+<GrMail  className="footericons"  />
 
-      <GrInstagram style={{color:"black", fontSize:20}} />
-      <GrTwitter  style={{color:"black", fontSize:20, marginLeft:18}}  />
-      <GrMail     style={{color:"black", fontSize:20, marginLeft:18}} />
+<p className="footertexter">© 2021 Garden<br/>Lagos, Nigeria</p>
 
-<p style={{color:"black",
-          paddingTop:40}}>
-        © 2021 Garden <br/> Lagos, Nigeria
-</p>
 
 </ReactBootStrap.Col>
-   
-   
-   <ReactBootStrap.Col style={{paddingTop:180}}>
-       <h3 style={{color:"black"}}> Info</h3>
-       <a style={{color:"black"}} href="/About">What to sell</a>
-       <br/>
-       <a style={{color:"black"}} href="/About">Meet the founder</a>
-   </ReactBootStrap.Col>
-   
-   
-   <ReactBootStrap.Col style={{paddingTop:186}}>
-   <h3 style={{color:"black"}}> Contact Us</h3>
-   <p style={{color:"black"}}>Phone Number: +234 0000000098  
-   
-   <br/>
-   <a style={{color:"black"}} href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp.com</a>
-   <br/>
-   <p>Address: 92, Lanre Awolokun Gbagada phase 2<br/>Lagos, Nigeria.</p>
-   <br/>
-   
-   </p>
-   
-   </ReactBootStrap.Col>
-   
-   
-  </ReactBootStrap.Row>
-   
-   </Layout>
+
+<ReactBootStrap.Col>
+<h3 className="footertext">Info</h3>
+
+
+<LinkContainer to="/About">
+<p className="footertext">What to sell</p>
+</LinkContainer>
+
+
+<p className="footertext">Go to app download page</p>
+
+
+</ReactBootStrap.Col>
+
+
+<ReactBootStrap.Col>
+<h3 className="footertext">Contact Us</h3>
+
+<p className="footertext">Phone Number: +234 0000000098</p>
+<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp@gmail.com</a>
+<p className="footertext">Address: 92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
+
+
+
+</ReactBootStrap.Col>
 
 
 
 
-            </div>
+</ReactBootStrap.Row>
+
+
+  </Layout>
+
+</div>
+
     )
 }

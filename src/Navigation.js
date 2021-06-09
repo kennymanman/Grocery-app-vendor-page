@@ -16,16 +16,15 @@ return (
         
 <div>
 <Layout>
-<ReactBootStrap.Navbar fixed style={{marginTop:20,
-                               backgroundColor:"#ffffff"}} >
+<ReactBootStrap.Navbar expand="lg" fixed="top"  >
 
-<ReactBootStrap.Navbar.Brand style={{marginLeft:0}}>
+<ReactBootStrap.Navbar.Brand >
 <img
   alt=""
   src={icon}
-  width="60"
-  height="60"
-  className="d-inline-block align-top"
+  className="topicon"
+  
+  
   />
 </ReactBootStrap.Navbar.Brand>
 
@@ -34,26 +33,27 @@ return (
 
 
 <LinkContainer to="/">
-<ReactBootStrap.Nav.Link style={{fontSize:30, textDecoration:"none"}}>
-<p style={{fontSize:29, marginRight:30, color:"black"}}>
-Garden Vendor<h8 style={{color:"orange"}}>.</h8>
+<ReactBootStrap.Nav.Link >
+<p className="vendorhead">
+Garden Vendor<h8 className="vendordot">.</h8>
 </p></ReactBootStrap.Nav.Link>
 </LinkContainer>
 
 
+< ReactBootStrap.Navbar.Toggle aria-controls="basic-navbar-nav" />
 
-<ReactBootStrap.Navbar.Collapse className="justify-content-left">
+<ReactBootStrap.Navbar.Collapse className="justify-content-center">
 
 
 <LinkContainer to="/About">
-<ReactBootStrap.Nav.Link style={{textDecoration:"none"}}> 
-<p style={{color:"black", paddingTop:10}}>What To Sell</p></ReactBootStrap.Nav.Link>
+<ReactBootStrap.Nav.Link > 
+<p className="whathead">What To Sell</p></ReactBootStrap.Nav.Link>
 </LinkContainer>
 
 
-<LinkContainer style={{marginLeft:50}} to="/Contact">
-<ReactBootStrap.Nav.Link  style={{ textDecoration:"none"}}>
- <p style={{color:"black", paddingTop:11}}>Contact Us</p>
+<LinkContainer  to="/Contact">
+<ReactBootStrap.Nav.Link  >
+ <p className="contacthead">Contact Us</p>
 </ReactBootStrap.Nav.Link>
 </LinkContainer>
 

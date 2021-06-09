@@ -3,7 +3,7 @@
 background-size: "cover";
 width: 1534px;
 position: absolute ;
-height:94vh;
+height:104vh;
 }
 .topgardentext{
   color: aliceblue;
@@ -24,18 +24,18 @@ height:94vh;
 
 .aimstatement{
   color:yellow;
-  margin-top: 19px;
+  margin-top: 49px;
   font-family: 'Inter', sans-serif;
 }
 .aimbelow{
   color: white;
-  margin-top: 307px;
+  margin-top: 280px;
   margin-left: 210px;
   font-family: 'Inter', sans-serif;
   
 }
 .signupbutton{
-  margin-top: 312px;
+  margin-top: 285px;
   margin-left: 15px;
   
 }
@@ -96,13 +96,244 @@ height:94vh;
   color: orangered;
   font-size: 100px;
   font-family: 'Inter', sans-serif;
-  margin-top: 20px;
+  padding-top: 109px;
+  position: relative;
 }
 .whatdot{
   color: orange;
 }
 .whatsub{
   font-family: 'Inter', sans-serif;
-  font-size: 17px; 
-  margin-top: 16px; 
+  font-size: 19px; 
+  margin-top: 36px;
+  position: relative; 
+  color: aliceblue;
 }
+.whatbackground{
+  position: absolute;
+  width: 1534px;
+}
+.tinyimage{
+  width:100px;
+  height:100px;
+  border-radius: 20px;
+}
+.tinytext{
+  color:white;
+  font-size: 30px;
+  
+}
+.tinyrow{
+  margin-top:70px ;
+}
+.contactbackground{
+  position: absolute;
+  width:1530px;
+  height:655px;
+}
+.contactheader{
+  font-size: 100px;
+  font-family: 'Inter', sans-serif;
+  color: orangered;
+  
+}
+.contactsubtitle{
+  font-size: 50px;
+  font-family: 'Inter', sans-serif;
+  color: orangered;
+}
+
+.contactrow{
+  padding-top: 110px;
+  padding-bottom: 45px;
+}
+.finalfix{
+  color: black;
+}
+.video{
+  position: center;
+  object-fit: cover;
+  width:100%;
+  
+
+}
+.vendorhead{
+  font-size: 27px;
+  margin-right: 30px;
+  color:white;
+  font-family: 'Inter', sans-serif;
+}
+.vendordot{
+  color:orange;
+}
+.whathead{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  padding-top: 12px;
+}
+.contacthead{
+  color:white;
+  font-family: 'Inter', sans-serif;
+  padding-top: 14px;
+  margin-left: 250px; 
+}
+.toprow{
+  padding-top: 117px;
+}
+.topicon{
+  width:60px;
+  height:60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen 
+and (min-width:320px)
+and (max-width:480px) {
+
+  .homebackground{
+    width:408px;
+    height: 176vh;
+  }
+  .footer{
+    width:408px;
+    margin-top: 48px;
+    height:310px;
+  }
+ .sellyourtext{
+   font-size: 73px;
+ }
+ .vendorhead{
+   margin-right: 0px;
+ }
+ .signupbutton{
+   
+   margin-top: 90px;
+ }
+ .signuprow{
+   margin-left: 2px;
+ }
+
+ .aimbelow{
+   margin-left: 10px;
+   font-size: 14px;
+   margin-top: 90px;
+ }
+ .footertext{
+   font-size: 13px;
+ }
+ .footericon{
+   font-size: 14px;
+ }
+ .footericons{
+   font-size: 14px;
+ }
+ .footertexter{
+   font-size: 9px;
+ }
+ .contacthead{
+   margin-left: 0px;
+ }
+ .footerrow{
+   margin-top: 114px;
+ }
+ .whatbackground{
+   width:408px;
+   height: 1000px;
+ }
+ .whatheader{
+   font-size: 80px;
+ }
+ .tinytext{
+   color:black;
+   font-size: 13px;
+   
+ }
+ .contactbackground{
+   width: 408px;
+   height:850px;
+ }
+ .contactheader{
+   font-size: 80px;
+ }
+ .contactsubtitle{
+   font-size: 40px;
+ }
+ .aimstatement{
+   padding-top: 115px;
+   font-size: 20px;
+ }
+ .topicon{
+   width:50px;
+   height:50px;
+ }
+
+}
+
+
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 768px) 
+  {
+.homebackground{
+  width:768px;
+  height:1250px;
+}
+.footer{
+  width:768px;
+}
+.footertext{
+  font-size: 17px;
+}
+.contacthead{
+  margin-left: 0px;
+}
+.whatbackground{
+  width:768px;
+  height:750px;
+}
+.tinytext{
+  color: black;
+  font-size: 15px;
+}
+.contactbackground{
+  width:768px;
+  height:740px;
+}
+
+  }
+
+
+
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  {
+   
+  .homebackground{
+    width:1024px;
+    height:100vh;
+  }
+  .footer{
+    width:1024px;
+  }
+  .aimbelow{
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 550px;
+  }
+  .signupbutton{
+   
+    margin-top: 550px;
+  }
+  }
+

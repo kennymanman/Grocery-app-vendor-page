@@ -16,6 +16,11 @@ import { FaGooglePlay } from "react-icons/fa"
 import vapa from "./Imaged/vapa.jpg"
 import {GiAvocado} from "react-icons/gi";
 import brag from "./Imaged/brag.jpg"
+import {LinkContainer} from 'react-router-bootstrap'
+import Load from "./Load"
+
+
+
 
 export default function Home() {
     return (
@@ -28,10 +33,10 @@ export default function Home() {
 
   <Layout>
 
-      <ReactBootStrap.Row>
+      <ReactBootStrap.Row className="toprow">
 
 <ReactBootStrap.Col>
-    <h3 className="topgardentext" >Garden<h8 className="topdot">.</h8></h3>
+    {/*<h3 className="topgardentext" >Garden<h8 className="topdot">.</h8></h3>*/}
 
     <h2 className="sellyourtext">
         Sell Your<br/>
@@ -59,7 +64,12 @@ Sign Up now and start<br/>
 making gains, begin to <br/>
 enjoy garden now.
 </h6>
-< ReactBootStrap.Button className="signupbutton" variant="success">Sign Up</ReactBootStrap.Button> 
+
+
+< ReactBootStrap.Button  className="signupbutton" variant="success">Sign Up</ReactBootStrap.Button> 
+
+
+
 </ReactBootStrap.Row>
 
 
@@ -95,7 +105,7 @@ enjoy garden now.
 
 <ReactBootStrap.Row className="footerrow">
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col >
 <h3 className="footertext">Garden.</h3>
 <GrInstagram className="footericon" />
 <GrTwitter   className="footericons"  />
@@ -106,16 +116,20 @@ enjoy garden now.
 
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col >
 <h3 className="footertext">Info</h3>
+
+<LinkContainer to="/About">
 <p className="footertext">What to sell</p>
+</LinkContainer>
+
 <p className="footertext">Go to app download page</p>
 
 
 </ReactBootStrap.Col>
 
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col >
 <h3 className="footertext">Contact Us</h3>
 
 <p className="footertext">Phone Number: +234 0000000098</p>
