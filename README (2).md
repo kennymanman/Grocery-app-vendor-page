@@ -1,16 +1,19 @@
 
+
+
 # Grocery app vendor website
 
 A React built website for grocery vendors to sell and market their grocery items(Still under development for the backend)
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![icon](https://user-images.githubusercontent.com/61712644/121791505-57d32680-cb75-11eb-8154-4b3591612afe.png)
+
 
     
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
+![xash](https://user-images.githubusercontent.com/61712644/121791516-79341280-cb75-11eb-9b61-e4554ee87976.PNG)
   
 ## Run Locally
 
