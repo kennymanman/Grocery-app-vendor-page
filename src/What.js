@@ -41,7 +41,7 @@ export default function What() {
 <p className="whatsub">
 Are you a grocery vendor, farm owner, fruits merchant, Instagram groceries vendor
 trying to create awareness for your grocery items and reach more customers while increasing
-profit?. Garden is the right platform for you.
+profit?, Then Garden is the right platform for you.
 
 
 </p>
