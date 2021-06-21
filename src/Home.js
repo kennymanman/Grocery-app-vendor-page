@@ -1,23 +1,13 @@
 import React from 'react'
-import xun from "./Imaged/xun.png"
-import uul from "./Imaged/uul.jpg"
 import * as ReactBootStrap from "react-bootstrap"
 import Layout from "./Layout"
-import pase from "./Imaged/pase.jpg"
-import put from "./Imaged/put.png"
-import aoal from "./Imaged/aoal.png"
-import oac from "./Imaged/oac.jpg"
 //import MobileStoreButton from 'react-mobile-store-button'
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
 import { FaAppStoreIos } from "react-icons/fa"
 import { FaGooglePlay } from "react-icons/fa"
-import vapa from "./Imaged/vapa.jpg"
-import {GiAvocado} from "react-icons/gi";
-import brag from "./Imaged/brag.jpg"
 import {LinkContainer} from 'react-router-bootstrap'
-import far from "./Imaged/far.jpg"
 import sago from "./Imaged/sago.jpg"
 import xotii from "./Imaged/xotii.jpg"
 
@@ -29,20 +19,20 @@ export default function Home() {
 
 
 
-  <div style={{height:721, backgroundColor:"#f6e4df", marginBottom:20}}>
+<div style={{height:721, backgroundColor:"#f6e4df", marginBottom:20}}>
 
-  <Layout>
+<Layout>
 
-      <ReactBootStrap.Row className="toprow">
+<ReactBootStrap.Row className="toprow">
 
 <ReactBootStrap.Col xs={7}>
-    {/*<h3 className="topgardentext" >Garden<h8 className="topdot">.</h8></h3>*/}
+    
 
-    <h2 className="sellyourtext">
-        Sell Your<br/>
-        Groceries With<br/>
-        Garden<h8 className="selldot">.</h8>
-    </h2>
+<h2 className="sellyourtext">
+    Sell Your<br/>
+    Groceries With<br/>
+    Garden<h8 className="selldot">.</h8>
+</h2>
 
 
 </ReactBootStrap.Col>

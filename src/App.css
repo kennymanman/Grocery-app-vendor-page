@@ -1,17 +1,4 @@
-.homebackground{
 
-background-size: "cover";
-width: 1534px;
-position: absolute ;
-height:104vh;
-}
-.topgardentext{
-  color: aliceblue;
-  margin-top: 20px;
-}
-.topdot{
-  color: orange;
-}
 .sellyourtext{
   margin-top: 26px;
   font-size: 119px;
@@ -41,13 +28,7 @@ height:104vh;
   font-style: normal;
   margin-top: 80px;
 }
-.aimbelow{
-  color: white;
-  margin-top: 280px;
-  margin-left: 210px;
-  font-family: 'Inter', sans-serif;
-  
-}
+
 .percentagetext{
 color:white;
 text-align: center;
@@ -59,42 +40,10 @@ padding-top: 120px;
 
 }
 
-.signupbutton{
-  margin-top: 285px;
-  margin-left: 15px;
-  
-}
-.signuprow{
-  margin-left: 120px;
-}
 
-.nextbackground{
-  width: 1534px;
-  position: absolute ;
-  height: 80vh;
-}
-.benefittext{
-  position: relative;
-  font-family: 'Inter', sans-serif;
-  font-size: 55px;
-  margin-top: 80px;
-  
-}
-.benefitdot{
-  color: yellow;
-}
-.icon{
-  position: relative;
-  font-size: 20px;
-  margin-top: 90px;
-}
-.footer{
-  width: 1534px;
-  height:300px;
-  position: absolute;
-  margin-top: 10px;
 
-}
+
+
 .footertext{
   position: relative;
   color: white;
@@ -144,10 +93,7 @@ font-style: normal;
   position: relative; 
   color: white;
 }
-.whatbackground{
-  position: absolute;
-  width: 1534px;
-}
+
 .tinyimage{
   width:100px;
   height:100px;
@@ -165,11 +111,7 @@ font-style: normal;
 .tinyrow{
   margin-top:70px ;
 }
-.contactbackground{
-  position: absolute;
-  width:1530px;
-  height:662px;
-}
+
 .contactheader{
   font-size: 100px;
   font-family: muli, sans-serif;
@@ -193,13 +135,7 @@ font-style: normal;
 .finalfix{
   color: black;
 }
-.video{
-  position: center;
-  object-fit: cover;
-  width:100%;
-  
 
-}
 .vendorhead{
   font-size: 27px;
   margin-right: 30px;
