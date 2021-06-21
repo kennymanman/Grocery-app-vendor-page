@@ -10,22 +10,36 @@ height:104vh;
   margin-top: 20px;
 }
 .topdot{
-  color: yellow;
+  color: orange;
 }
 .sellyourtext{
   margin-top: 26px;
-  font-size: 112px;
-  font-family: 'Inter', sans-serif;
-  color:orangered
-}
-.selldot{
-  color:yellow;
+  font-size: 119px;
+  color:black;
+  font-family: muli, sans-serif;
+  font-weight: 950;
+  font-style: normal;
 }
 
+.selldot{
+  color:orange;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.topimage{
+  width:450px;
+  height:550px;
+  
+}
 .aimstatement{
-  color:yellow;
-  margin-top: 49px;
-  font-family: 'Inter', sans-serif;
+  text-align: center;
+  color:black;
+  font-size:70px;
+  font-family: muli, sans-serif;
+  font-weight: 950;
+  font-style: normal;
+  margin-top: 80px;
 }
 .aimbelow{
   color: white;
@@ -34,6 +48,17 @@ height:104vh;
   font-family: 'Inter', sans-serif;
   
 }
+.percentagetext{
+color:white;
+text-align: center;
+font-family: muli, sans-serif;
+font-weight: 950;
+font-style: normal;
+font-size: 70px;
+padding-top: 120px;
+
+}
+
 .signupbutton{
   margin-top: 285px;
   margin-left: 15px;
@@ -67,47 +92,57 @@ height:104vh;
   width: 1534px;
   height:300px;
   position: absolute;
+  margin-top: 10px;
 
 }
 .footertext{
   position: relative;
-  color: aliceblue;
+  color: white;
+  
 }
 .footericon{
   font-size: 20px;
-  color: aliceblue;
+  color: white;
   
 }
 .footerrow{
-  margin-top: 55px;
+  padding-top: 50px;
 }
 .footertexter{
   position: relative;
-  color: aliceblue;
+  color: white;
   margin-top: 110px;
 }
 .footericons{
   font-size: 20px;
-  color: aliceblue;
+  color: white;
   margin-left: 15px;
   
 }
 .whatheader{
-  color: orangered;
+  color: black;
   font-size: 100px;
-  font-family: 'Inter', sans-serif;
+  font-family: muli, sans-serif;
+  font-weight: 950;
+  font-style: normal;
   padding-top: 109px;
   position: relative;
 }
 .whatdot{
   color: orange;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .whatsub{
-  font-family: 'Inter', sans-serif;
-  font-size: 19px; 
+  text-align: center;
+  font-family: muli, sans-serif;
+font-weight: 950;
+font-style: normal; 
+  font-size: 30px; 
   margin-top: 36px;
   position: relative; 
-  color: aliceblue;
+  color: white;
 }
 .whatbackground{
   position: absolute;
@@ -117,10 +152,14 @@ height:104vh;
   width:100px;
   height:100px;
   border-radius: 20px;
+  align-self: center;
 }
 .tinytext{
   color:white;
-  font-size: 30px;
+  font-size: 23px;
+  text-align: center;
+  
+  
   
 }
 .tinyrow{
@@ -129,18 +168,22 @@ height:104vh;
 .contactbackground{
   position: absolute;
   width:1530px;
-  height:655px;
+  height:662px;
 }
 .contactheader{
   font-size: 100px;
-  font-family: 'Inter', sans-serif;
-  color: orangered;
+  font-family: muli, sans-serif;
+  font-weight: 950;
+  font-style: normal; 
+  color: black;
   
 }
 .contactsubtitle{
   font-size: 50px;
-  font-family: 'Inter', sans-serif;
-  color: orangered;
+  font-family: muli, sans-serif;
+  font-weight: 950;
+  font-style: normal; 
+  color: white;
 }
 
 .contactrow{
@@ -160,22 +203,31 @@ height:104vh;
 .vendorhead{
   font-size: 27px;
   margin-right: 30px;
-  color:white;
-  font-family: 'Inter', sans-serif;
+  color:black;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .vendordot{
   color:orange;
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .whathead{
-  color:white;
-  font-family: 'Inter', sans-serif;
+  color:black;
   padding-top: 12px;
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .contacthead{
-  color:white;
-  font-family: 'Inter', sans-serif;
+  color:black;
   padding-top: 14px;
   margin-left: 250px; 
+  font-family: muli, sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }
 .toprow{
   padding-top: 117px;
@@ -202,7 +254,7 @@ and (max-width:480px) {
 
   .homebackground{
     width:409px;
-    height: 176vh;
+    height: 178vh;
   }
   .footer{
     width:409px;
@@ -229,7 +281,7 @@ and (max-width:480px) {
    margin-top: 90px;
  }
  .footertext{
-   font-size: 13px;
+   font-size: 13.5px;
  }
  .footericon{
    font-size: 14px;
@@ -247,7 +299,7 @@ and (max-width:480px) {
    margin-top: 114px;
  }
  .whatbackground{
-   width:408px;
+   width:409px;
    height: 1000px;
  }
  .whatheader{
@@ -259,14 +311,14 @@ and (max-width:480px) {
    
  }
  .contactbackground{
-   width: 408px;
+   width: 409px;
    height:850px;
  }
  .contactheader{
    font-size: 80px;
  }
  .contactsubtitle{
-   font-size: 40px;
+   font-size: 34px;
  }
  .aimstatement{
    padding-top: 115px;
@@ -275,6 +327,12 @@ and (max-width:480px) {
  .topicon{
    width:50px;
    height:50px;
+ }
+ .tinyrow{
+   padding-left: 34px;
+ }
+ .addresstext{
+   font-size: 17px;
  }
 
 }
@@ -286,7 +344,7 @@ and (max-width:480px) {
   {
 .homebackground{
   width:768px;
-  height:1250px;
+  max-height: fit-content;
 }
 .footer{
   width:768px;
@@ -342,5 +400,22 @@ and (max-width:480px) {
   .contactbackground{
     width:1024px;
   }
+  }
+
+
+
+
+  @media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1280px) 
+  {
+
+    .tinyrow{
+      padding-left: 214px;
+    }
+
+
+
+
   }
 

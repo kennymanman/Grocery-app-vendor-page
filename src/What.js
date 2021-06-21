@@ -31,21 +31,17 @@ export default function What() {
 
 <div>
 
-< img  alt="loading"
-  className="whatbackground"
-  fluid src={xoti}  />
 
 
+<div style={{height:1320, backgroundColor:"#0a7e50"}}>
 <Layout>
 <ReactBootStrap.Col>
 <h4 className="whatheader">What<br/>To Sell<br/>On Garden<h8 className="whatdot">.</h8></h4>
 
 <p className="whatsub">
-Are you a groceries vendor, farm owner, fruits merchant, Instagram groceries vendor
-trying to create awareness<br/> for your grocery items and reach more customers while increasing
-your profit and benefits? , Garden is the right<br/> platform for you.  Garden is a new-generation
-grocery shopping platform that connects to thousands of customers<br/> in your city/state. Garden
-creates the awareness and provides delivery for you.
+Are you a grocery vendor, farm owner, fruits merchant, Instagram groceries vendor
+trying to create awareness for your grocery items and reach more customers while increasing
+profit?. Garden is the right platform for you.
 
 
 </p>
@@ -55,23 +51,31 @@ creates the awareness and provides delivery for you.
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={fruit} />
+</div>
 <h2 className="tinytext">   Fruits</h2>
 </ReactBootStrap.Col>
 
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={veg} />
+</div>
 <h2 className="tinytext">Vegetables</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+  <div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={meat} />
+ </div> 
 <h2 className="tinytext">Meat</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={bread} />
+</div>
 <h2 className="tinytext">Bread </h2>
 </ReactBootStrap.Col>
 
@@ -79,27 +83,34 @@ creates the awareness and provides delivery for you.
 
 
 
-
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={eggs} />
-<h2 className="tinytext">Dairy &<br/>Eggs</h2>
+</div>
+<h2 className="tinytext">Dairy</h2>
 </ReactBootStrap.Col>
 
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={cereal} />
+</div>
 <h2 className="tinytext">Cereal</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={drinks} />
+</div>
 <h2 className="tinytext">drinks</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={al} />
+</div>
 <h2 className="tinytext">Alcohol</h2>
 </ReactBootStrap.Col>
 
@@ -107,38 +118,54 @@ creates the awareness and provides delivery for you.
 
 
 
-
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={snack} />
+</div>
 <h2 className="tinytext">Snacks</h2>
 </ReactBootStrap.Col>
 
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={spices} />
-<h2 className="tinytext">Spices & Condiments</h2>
+</div>
+<h2 className="tinytext">Condiments</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={pantry} />
+</div>
 <h2 className="tinytext">Pantry</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
+<div style={{textAlign:"center"}}>
 <ReactBootStrap.Image className="tinyimage" src={house} />
-<h2 className="tinytext">Household essentials</h2>
+</div>
+<h2 className="tinytext">Household</h2>
 </ReactBootStrap.Col>
 
 </ReactBootStrap.Row>
+
+
+
+
+
+
+
+
+
+
 </Layout>
+</div>
 
 
 
-< img  alt="loading"
-  className="footer"
-  fluid src={put}  />
+<div style={{height:300,backgroundColor: "black"}}>
 
 
   <Layout>
@@ -190,7 +217,7 @@ creates the awareness and provides delivery for you.
 
 
   </Layout>
-
+</div>
 
 
 

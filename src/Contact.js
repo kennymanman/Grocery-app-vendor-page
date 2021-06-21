@@ -15,9 +15,9 @@ export default function Contact() {
 
 <div>
 
-< img  alt="loading"
-  className="contactbackground"
-  fluid src={hpi}  />
+  <div style={{backgroundColor:"#ffcc99", height:730}}>
+
+
 
 
 <Layout>
@@ -35,7 +35,7 @@ we would love to hear from you.</h6>
 
 
 <ReactBootStrap.Col>
-<h4>Lagos, Nigeria</h4>
+<h4 className="addresstext">Lagos, Nigeria</h4>
 <p>92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
 
 <GrPhone className="finalfix"  />  <h7> Phone Number: +234 0000000098 </h7><br/>
@@ -45,8 +45,11 @@ we would love to hear from you.</h6>
 
 </ReactBootStrap.Row>
 </Layout>
+</div>
 
 
+
+{/*
 < img  alt="loading"
   className="footer"
   fluid src={put}  />
@@ -100,6 +103,61 @@ we would love to hear from you.</h6>
 
 
   </Layout>
+*/}
+
+<div style={{height:300,backgroundColor: "black"}}>
+
+
+  <Layout>
+
+<ReactBootStrap.Row className="footerrow">
+
+<ReactBootStrap.Col>
+<h3 className="footertext">Garden.</h3>
+<GrInstagram className="footericon" />
+<GrTwitter   className="footericons"  />
+<GrMail  className="footericons"  />
+
+<p className="footertexter">© 2021 Garden<br/>Lagos, Nigeria</p>
+
+
+</ReactBootStrap.Col>
+
+<ReactBootStrap.Col>
+<h3 className="footertext">Info</h3>
+
+
+<LinkContainer to="/About">
+<p className="footertext">What to sell</p>
+</LinkContainer>
+
+
+
+<p className="footertext">Go to app download page</p>
+
+
+</ReactBootStrap.Col>
+
+
+<ReactBootStrap.Col>
+<h3 className="footertext">Contact Us</h3>
+
+<p className="footertext">Phone Number: +234 0000000098</p>
+<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp@gmail.com</a>
+<p className="footertext">Address: 92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
+
+
+
+</ReactBootStrap.Col>
+
+
+
+
+</ReactBootStrap.Row>
+
+
+  </Layout>
+</div>
 
 </div>
 

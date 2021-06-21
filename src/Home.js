@@ -17,9 +17,9 @@ import vapa from "./Imaged/vapa.jpg"
 import {GiAvocado} from "react-icons/gi";
 import brag from "./Imaged/brag.jpg"
 import {LinkContainer} from 'react-router-bootstrap'
-import Load from "./Load"
-
-
+import far from "./Imaged/far.jpg"
+import sago from "./Imaged/sago.jpg"
+import xotii from "./Imaged/xotii.jpg"
 
 
 export default function Home() {
@@ -27,15 +27,15 @@ export default function Home() {
         <div>
 
 
-< img  alt="loading"
-  className="homebackground"
-  fluid src={vapa}  />
+
+
+  <div style={{height:721, backgroundColor:"#f6e4df", marginBottom:20}}>
 
   <Layout>
 
       <ReactBootStrap.Row className="toprow">
 
-<ReactBootStrap.Col>
+<ReactBootStrap.Col xs={7}>
     {/*<h3 className="topgardentext" >Garden<h8 className="topdot">.</h8></h3>*/}
 
     <h2 className="sellyourtext">
@@ -47,59 +47,50 @@ export default function Home() {
 
 </ReactBootStrap.Col>
 
+<ReactBootStrap.Col xs={5}>
 
-<ReactBootStrap.Col>
-
-<h5 className="aimstatement">The aim of Garden is creating a platform of awareness for various grocery sellers,
-farm owners, food merchants in respective cities to connect to customers 
-in the same city they reside in at affordable prices and rates.
-Sign up today as a customer or groceries vendor and enjoy buying & selling of
-groceries at affordable and beneficial rates at your convenience .
-</h5>
-
-
-<ReactBootStrap.Row className="signuprow">
-<h6 className="aimbelow">
-Sign Up now and start<br/>
-making gains, begin to <br/>
-enjoy garden now.
-</h6>
-
-
-< ReactBootStrap.Button  className="signupbutton" variant="success">Sign Up</ReactBootStrap.Button> 
-
-
-
-</ReactBootStrap.Row>
-
+<img alt="I'm loading"
+className="topimage"
+fluid src={xotii} />
 
 
 </ReactBootStrap.Col>
+
+
+
 </ReactBootStrap.Row>
 </Layout>
 
+</div>
 
-{/*
-  < img  alt="loading"
-  className="nextbackground"
-  fluid src={brag}  />
 
-<Layout>
 
-<h3 className="benefittext">Benefits of selling on Garden<h8 className="benefitdot">.</h8></h3>
 
-<GiAvocado className="icon" /> <h6>jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj</h6>
 
-    </Layout>
 
-  <GiAvocado />
 
-*/}
 
-< img  alt="loading"
-  className="footer"
-  fluid src={put}  />
+<h5 className="aimstatement">  
+Sell your groceries,<br/>
+We get customers for you,<br/>
+We deliver for you.
 
+ </h5>
+
+<div style={{textAlign:"center", marginBottom:40}}>
+ <ReactBootStrap.Button size={"lg"}  variant="success">Sign Up</ReactBootStrap.Button>
+ </div>
+
+ <div style={{backgroundColor: "#2a6049", height:450, margin:20}} >
+<h4 className="percentagetext">We only take 15% of each sale.<br/> Dont worry about getting customers or delivery.</h4>
+
+</div>
+
+
+
+
+
+<div style={{height:300,backgroundColor: "black"}}>
 
   <Layout>
 
@@ -147,6 +138,9 @@ enjoy garden now.
 
 
   </Layout>
+</div>
+
+
 </div>
 
     )
