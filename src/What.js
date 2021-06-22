@@ -33,7 +33,7 @@ export default function What() {
 
 
 
-<div style={{height:1320, backgroundColor:"#0a7e50"}}>
+<div className="whatdiv">
 <Layout>
 <ReactBootStrap.Col>
 <h4 className="whatheader">What<br/>To Sell<br/>On Garden<h8 className="whatdot">.</h8></h4>
@@ -51,7 +51,7 @@ profit?, Then Garden is the right platform for you.
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={fruit} />
 </div>
 <h2 className="tinytext">   Fruits</h2>
@@ -59,21 +59,25 @@ profit?, Then Garden is the right platform for you.
 
 
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={veg} />
 </div>
 <h2 className="tinytext">Vegetables</h2>
 </ReactBootStrap.Col>
 
+
+
 <ReactBootStrap.Col>
-  <div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={meat} />
  </div> 
 <h2 className="tinytext">Meat</h2>
 </ReactBootStrap.Col>
 
+
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={bread} />
 </div>
 <h2 className="tinytext">Bread </h2>
@@ -83,32 +87,37 @@ profit?, Then Garden is the right platform for you.
 
 
 
+
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={eggs} />
 </div>
 <h2 className="tinytext">Dairy</h2>
 </ReactBootStrap.Col>
 
 
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={cereal} />
 </div>
 <h2 className="tinytext">Cereal</h2>
 </ReactBootStrap.Col>
 
+
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={drinks} />
 </div>
 <h2 className="tinytext">drinks</h2>
 </ReactBootStrap.Col>
 
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={al} />
 </div>
 <h2 className="tinytext">Alcohol</h2>
@@ -121,29 +130,31 @@ profit?, Then Garden is the right platform for you.
 <ReactBootStrap.Row className="tinyrow">
 
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={snack} />
 </div>
 <h2 className="tinytext">Snacks</h2>
 </ReactBootStrap.Col>
 
 
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={spices} />
 </div>
 <h2 className="tinytext">Condiments</h2>
 </ReactBootStrap.Col>
 
+
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={pantry} />
 </div>
 <h2 className="tinytext">Pantry</h2>
 </ReactBootStrap.Col>
 
 <ReactBootStrap.Col>
-<div style={{textAlign:"center"}}>
+<div className="divimage">
 <ReactBootStrap.Image className="tinyimage" src={house} />
 </div>
 <h2 className="tinytext">Household</h2>
@@ -165,7 +176,7 @@ profit?, Then Garden is the right platform for you.
 
 
 
-<div style={{height:300,backgroundColor: "black"}}>
+<div className="bottomdiv">
 
 
   <Layout>

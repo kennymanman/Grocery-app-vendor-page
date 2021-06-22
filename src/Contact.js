@@ -1,23 +1,20 @@
 import React from 'react'
-import hpi from "./Imaged/hpi.jpg"
 import Layout from "./Layout" 
 import * as ReactBootStrap from "react-bootstrap"
-import put from "./Imaged/put.png"
-import lut from "./Imaged/lut.png"
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
 import {GrPhone} from "react-icons/gr"
 import {LinkContainer} from 'react-router-bootstrap'
 
+
+
 export default function Contact() {
-    return (
+return (
 
 <div>
 
-  <div style={{backgroundColor:"#ffcc99", height:730}}>
-
-
+<div className="contactdiv">
 
 
 <Layout>
@@ -49,63 +46,9 @@ we would love to hear from you.</h6>
 
 
 
-{/*
-< img  alt="loading"
-  className="footer"
-  fluid src={put}  />
 
 
-  <Layout>
-
-<ReactBootStrap.Row className="footerrow">
-
-<ReactBootStrap.Col>
-<h3 className="footertext">Garden.</h3>
-<GrInstagram className="footericon" />
-<GrTwitter   className="footericons"  />
-<GrMail  className="footericons"  />
-
-<p className="footertexter">© 2021 Garden<br/>Lagos, Nigeria</p>
-
-
-</ReactBootStrap.Col>
-
-<ReactBootStrap.Col>
-<h3 className="footertext">Info</h3>
-
-
-<LinkContainer to="/About">
-<p className="footertext">What to sell</p>
-</LinkContainer>
-
-
-<p className="footertext">Go to app download page</p>
-
-
-</ReactBootStrap.Col>
-
-
-<ReactBootStrap.Col>
-<h3 className="footertext">Contact Us</h3>
-
-<p className="footertext">Phone Number: +234 0000000098</p>
-<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp@gmail.com</a>
-<p className="footertext">Address: 92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
-
-
-
-</ReactBootStrap.Col>
-
-
-
-
-</ReactBootStrap.Row>
-
-
-  </Layout>
-*/}
-
-<div style={{height:300,backgroundColor: "black"}}>
+<div className="bottomdiv">
 
 
   <Layout>

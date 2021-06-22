@@ -10,7 +10,9 @@ import { FaGooglePlay } from "react-icons/fa"
 import {LinkContainer} from 'react-router-bootstrap'
 import sago from "./Imaged/sago.jpg"
 import xotii from "./Imaged/xotii.jpg"
-
+import move from "./Imaged/move.jpg"
+import save from "./Imaged/save.jpg"
+import xave from "./Imaged/xave.jpg"
 
 export default function Home() {
     return (
@@ -19,13 +21,21 @@ export default function Home() {
 
 
 
-<div style={{height:721, backgroundColor:"#f6e4df", marginBottom:20}}>
+<div className="homediv" >
 
+<img 
+  alt="loading"
+  src={save}
+  className="largestimage"
+/>
 <Layout>
 
 <ReactBootStrap.Row className="toprow">
 
 <ReactBootStrap.Col xs={7}>
+
+
+
     
 
 <h2 className="sellyourtext">
@@ -37,14 +47,7 @@ export default function Home() {
 
 </ReactBootStrap.Col>
 
-<ReactBootStrap.Col xs={5}>
 
-<img alt="I'm loading"
-className="topimage"
-fluid src={xotii} />
-
-
-</ReactBootStrap.Col>
 
 
 
@@ -67,11 +70,11 @@ We deliver for you.
 
  </h5>
 
-<div style={{textAlign:"center", marginBottom:40}}>
+<div className="centerdiv">
  <ReactBootStrap.Button size={"lg"}  variant="success">Sign Up</ReactBootStrap.Button>
  </div>
 
- <div style={{backgroundColor: "#2a6049", height:450, margin:20}} >
+ <div className="percentagediv" >
 <h4 className="percentagetext">We only take 15% of each sale.<br/> Dont worry about getting customers or delivery.</h4>
 
 </div>
@@ -80,7 +83,7 @@ We deliver for you.
 
 
 
-<div style={{height:300,backgroundColor: "black"}}>
+<div className="bottomdiv">
 
   <Layout>
 

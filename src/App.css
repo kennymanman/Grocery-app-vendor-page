@@ -1,3 +1,41 @@
+.homediv{
+  background-color: #f6e4df;
+  height: 721px;
+  margin-bottom: 20px;
+}
+.largestimage{
+  position: absolute;
+  height:605px;
+  width:1350px;
+  margin:90px;
+}
+
+.centerdiv{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.percentagediv{
+  background-color: #2a6049;
+  height:450px;
+  margin: 20px;
+}
+.bottomdiv{
+  height:300px;
+  background-color: black;
+}
+.whatdiv{
+  height:1320px;
+  background-color: #0a7e50;
+}
+.divimage{
+  text-align: center;
+}
+.contactdiv{
+height:730px;
+background-color: #f6e4df;
+
+}
 
 .sellyourtext{
   margin-top: 26px;
@@ -125,7 +163,7 @@ font-style: normal;
   font-family: muli, sans-serif;
   font-weight: 950;
   font-style: normal; 
-  color: white;
+  color: black;
 }
 
 .contactrow{
