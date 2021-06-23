@@ -18,6 +18,7 @@ return (
 <Layout>
 <ReactBootStrap.Navbar expand="lg" fixed="top"  >
 
+<LinkContainer to="/">
 <ReactBootStrap.Navbar.Brand >
 <img
   alt=""
@@ -27,7 +28,7 @@ return (
   
   />
 </ReactBootStrap.Navbar.Brand>
-
+</LinkContainer>
 
 
 

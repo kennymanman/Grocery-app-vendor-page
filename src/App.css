@@ -331,6 +331,12 @@ and (max-width:480px) {
  .homediv{
    height: 735px;
  }
+ .whathead{
+   color:orange;
+ }
+ .contacthead{
+  color:orange;
+ }
 
 }
 
