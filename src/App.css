@@ -243,6 +243,7 @@ and (max-width:480px) {
   }
  .sellyourtext{
    font-size: 73px;
+   margin-top: 19px;
  }
  .vendorhead{
    font-size: 19px;
