@@ -1,9 +1,7 @@
 import React from 'react'
-import jename from "./Imaged/jename.jpg"
 import Layout from "./Layout"
 import * as ReactBootStrap from "react-bootstrap"
 import veg from "./Imaged/veg.jpg"
-import lut from "./Imaged/lut.png"
 import fruit from "./Imaged/fruit.jpg"
 import meat from "./Imaged/meat.jpg"
 import bread from "./Imaged/bread.jpg"
@@ -15,23 +13,24 @@ import snack from "./Imaged/snack.jpg"
 import spices from "./Imaged/spices.jpg"
 import pantry from "./Imaged/pantry.jpg"
 import house from "./Imaged/house.jpg"
-import med from "./Imaged/med.jpg"
-import kid from "./Imaged/kid.jpg"
+//import med from "./Imaged/med.jpg"
+//import kid from "./Imaged/kid.jpg"
 import { GrInstagram } from "react-icons/gr"
 import { GrTwitter } from "react-icons/gr"
 import { GrMail } from "react-icons/gr"
-import xoti from "./Imaged/xoti.jpg"
-import put from "./Imaged/put.png"
 import {LinkContainer} from 'react-router-bootstrap'
 
 
 
+
+
+
 export default function What() {
-    return (
+return (
+
+
 
 <div>
-
-
 
 <div className="whatdiv">
 <Layout>
@@ -39,11 +38,10 @@ export default function What() {
 <h4 className="whatheader">What<br/>To Sell<br/>On Garden<h8 className="whatdot">.</h8></h4>
 
 <p className="whatsub">
-Are you a grocery vendor, farm owner, fruits merchant, Instagram groceries vendor
-trying to create awareness for your grocery items and reach more customers while increasing
+Are you a grocery vendor, Supermarket owner, farm owner, 
+ Instagram vendor trying to create awareness
+for your grocery items and reach more customers while increasing
 profit?, Then Garden is the right platform for you.
-
-
 </p>
 </ReactBootStrap.Col>
 
@@ -179,7 +177,7 @@ profit?, Then Garden is the right platform for you.
 <div className="bottomdiv">
 
 
-  <Layout>
+<Layout>
 
 <ReactBootStrap.Row className="footerrow">
 
@@ -227,7 +225,7 @@ profit?, Then Garden is the right platform for you.
 </ReactBootStrap.Row>
 
 
-  </Layout>
+</Layout>
 </div>
 
 
