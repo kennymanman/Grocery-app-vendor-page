@@ -117,7 +117,7 @@ We deliver for you.
 <h3 className="footertext">Contact Us</h3>
 
 <p className="footertext">Phone Number: +234 0000000098</p>
-<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: www.gardenapp@gmail.com</a>
+<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: gardenapp@gmail.com</a>
 <p className="footertext">Address: 92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
 
 
