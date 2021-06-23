@@ -23,7 +23,7 @@ export default function Home() {
 
 <div className="homediv" >
 
-<img 
+<ReactBootStrap.Image 
   alt="loading"
   src={save}
   className="largestimage"
@@ -75,7 +75,7 @@ We deliver for you.
  </div>
 
  <div className="percentagediv" >
-<h4 className="percentagetext">We only take 15% of each sale.<br/> Dont worry about getting customers or delivery.</h4>
+<h4 className="percentagetext">We only take <h8 style={{color:"yellow"}}>15% </h8>of each sale.<br/> Dont worry about getting customers or delivery.</h4>
 
 </div>
 

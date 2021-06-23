@@ -229,6 +229,9 @@ font-style: normal;
 and (min-width:320px)
 and (max-width:480px) {
 
+  
+
+
   .homebackground{
     width:409px;
     height: 178vh;
@@ -242,7 +245,9 @@ and (max-width:480px) {
    font-size: 73px;
  }
  .vendorhead{
-   margin-right: 0px;
+   font-size: 19px;
+   padding-top: 15px;
+   padding-left: 3px;
  }
  .signupbutton{
    
@@ -272,18 +277,16 @@ and (max-width:480px) {
  .contacthead{
    margin-left: 0px;
  }
- .footerrow{
-   margin-top: 114px;
- }
+ 
  .whatbackground{
    width:409px;
    height: 1000px;
  }
  .whatheader{
-   font-size: 80px;
+   font-size: 73px;
  }
  .tinytext{
-   color:black;
+   color:white;
    font-size: 13px;
    
  }
@@ -298,30 +301,74 @@ and (max-width:480px) {
    font-size: 34px;
  }
  .aimstatement{
-   padding-top: 115px;
-   font-size: 20px;
+   
+   font-size: 32px;
  }
  .topicon{
    width:50px;
    height:50px;
  }
- .tinyrow{
-   padding-left: 34px;
- }
+ 
  .addresstext{
    font-size: 17px;
  }
+ .largestimage{
+   display:none;
+   width:330px;
+   margin:15px;
+ }
+ .percentagetext{
+   font-size: 45px;
+   padding-top: 45px;
+ }
+ .whatsub{
+   font-size: 23px;
+ }
+ .whatdiv{
+   height:1920px
+ }
+ .homediv{
+   height: 735px;
+ }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen 
   and (min-device-width: 480px) 
   and (max-device-width: 768px) 
   {
-.homebackground{
-  width:768px;
-  max-height: fit-content;
+.homediv{
+  height:720px;
+}
+
+.largestimage{
+  display: none;
+  width:520px;
+  margin: 10px;
+  padding-top: 120px;
+}
+.sellyourtext{
+  font-size: 95px;
+}
+.aimstatement{
+  font-size: 35px;
+}
+.percentagetext{
+  font-size: 40px;
 }
 .footer{
   width:768px;
@@ -332,9 +379,14 @@ and (max-width:480px) {
 .contacthead{
   margin-left: 0px;
 }
-.whatbackground{
-  width:768px;
-  height:750px;
+.whatdiv{
+  height:1200px;
+}
+.whatheader{
+  font-size: 75px;
+}
+.whatsub{
+  font-size: 20px;
 }
 .tinytext{
   color: black;
@@ -344,8 +396,12 @@ and (max-width:480px) {
   width:768px;
   height:740px;
 }
+.contactdiv{
+  height: 900px;
+}
 
   }
+
 
 
 
@@ -354,9 +410,22 @@ and (max-width:480px) {
   and (max-device-width: 1024px) 
   {
    
-  .homebackground{
-    width:1024px;
-    height:100vh;
+  .homediv{
+    
+    height:670px;
+  }
+.sellyourtext{
+  font-size: 84px;
+}
+.aimstatement{
+  font-size: 50px;
+  text-align: center;
+}
+  .largestimage{
+    margin:29px;
+    width:717px;
+    height:590px;
+    padding-top: 55px;
   }
   .footer{
     width:1024px;
@@ -377,6 +446,12 @@ and (max-width:480px) {
   .contactbackground{
     width:1024px;
   }
+  .percentagetext{
+    font-size: 53px;
+  }
+  .whatdiv{
+    height: 1500px;
+  }
   }
 
 
@@ -387,9 +462,10 @@ and (max-width:480px) {
   and (max-device-width: 1280px) 
   {
 
-    .tinyrow{
-      padding-left: 214px;
-    }
+   .largestimage{
+     width:970px;
+     
+   }
 
 
 
