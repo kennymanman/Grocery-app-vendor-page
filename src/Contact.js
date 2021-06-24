@@ -76,7 +76,7 @@ we would love to hear from you.</h6>
 
 
 
-<p className="footertext">Go to app download page</p>
+<p className="footertext">Go to app website</p>
 
 
 </ReactBootStrap.Col>

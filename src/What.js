@@ -202,7 +202,7 @@ profit?, Then Garden is the right platform for you.
 
 
 
-<p className="footertext">Go to app download page</p>
+<p className="footertext">Go to app website</p>
 
 
 </ReactBootStrap.Col>

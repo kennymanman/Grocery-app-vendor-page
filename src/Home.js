@@ -93,7 +93,7 @@ Sign Up
 <p className="footertext">What to sell</p>
 </LinkContainer>
 
-<p className="footertext">Go to app download page</p>
+<p className="footertext">Go to app website</p>
 
 
 </ReactBootStrap.Col>
