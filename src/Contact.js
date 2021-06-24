@@ -36,7 +36,7 @@ we would love to hear from you.</h6>
 <p>92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
 
 <GrPhone className="finalfix"  />  <h7> Phone Number: +234 0000000098 </h7><br/>
-<GrMail  className="finalfix"  /> <a  className="finalfix"  href='mailto:jack@semantic-ui.com'> Email Address: gardenapp@gmail.com</a>
+<GrMail  className="finalfix"  /> <a  className="finalfix"  href='mailto:gardenstoreapp@gmail.com'> Email Address: gardenstoreapp@gmail.com</a>
 
 </ReactBootStrap.Col>
 
@@ -76,7 +76,7 @@ we would love to hear from you.</h6>
 
 
 
-<p className="footertext">Go to app website</p>
+<p className="footertext"><a style={{color:"white"}} href="http://www.gardenstoreapp.com" target= "blank">Go to app website</a></p>
 
 
 </ReactBootStrap.Col>
@@ -86,7 +86,7 @@ we would love to hear from you.</h6>
 <h3 className="footertext">Contact Us</h3>
 
 <p className="footertext">Phone Number: +234 0000000098</p>
-<a className="footertext" href='mailto:jack@semantic-ui.com'>Email Address: gardenapp@gmail.com</a>
+<a className="footertext" href='mailto:gardenstoreapp@gmail.com'>Email Address: gardenstoreapp@gmail.com</a>
 <p className="footertext">Address: 92, Lanre Awolokun Gbagada Phase 2<br/>Lagos, Nigeria.</p>
 
 
