@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Contact from "./Contact"
 import What from "./What"
 import Navigation from "./Navigation"
+import Form from "./Form"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/About" component={What} />
         <Route path="/Contact" component={Contact} />
+        <Route path="/Form"   component={Form} />
         
       </Switch>
     </Router>

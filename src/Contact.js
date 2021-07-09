@@ -21,7 +21,7 @@ return (
 <ReactBootStrap.Row className="contactrow">
 
 <ReactBootStrap.Col>
-<h4 className="contactheader" >Contact<br/> Us</h4>
+<h4 className="contactheader" >Get In<br/>Touch</h4>
 
 <h6 className="contactsubtitle">Email or visit us<br/>at our location,<br/>
 we would love to hear from you.</h6>
