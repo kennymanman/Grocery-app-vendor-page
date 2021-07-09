@@ -1,3 +1,4 @@
+
 # Grocery app vendor website
 
 A React built website for grocery vendors to sell and market their grocery items(Still under development for the backend)
@@ -10,7 +11,7 @@ A React built website for grocery vendors to sell and market their grocery items
 ## Screenshots
 
 
-![xash](https://user-images.githubusercontent.com/61712644/121791516-79341280-cb75-11eb-9b61-e4554ee87976.PNG)
+![latestone](https://user-images.githubusercontent.com/61712644/125143186-d358c280-e0a4-11eb-82cb-0b873fadbe66.JPG)
   
 ## Run Locally
 
